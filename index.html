@@ -9,14 +9,17 @@
 </head>
 <body style = "background-color: #8a817c; display: flex; align-items: center; flex-direction: column;">
     <h1>Etch A Sketch</h1>
-    <div id ="controls">
-        <h3>Grid Size:</h3>
-        <div id = "sizebox"></div>
-        <div class="slideContainer">
-            <input type="range" min="1" max="85" value="16" class="slider" id="myRange">
-          </div>
+    <div class = "body2">
+        <div id ="controls">
+            <h3>Grid Size:</h3>
+            <div id = "sizebox"></div>
+            <div class="slideContainer">
+                <input type="range" min="1" max="100" value="16" class="slider" id="myRange">
+              </div>
+            <button id="reset">Reset</button>
+        </div>
+        <div id = "container"></div>
     </div>
-    <div id = "container"></div>
     <script src = "script.js"></script>
 </body>
 </html>

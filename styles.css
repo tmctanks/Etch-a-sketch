@@ -18,15 +18,27 @@ h1 {
 
 #slideContainer{
     background-color: tan;
+    margin-top: 1px;
 }
 
-#controls{
-    width: 200px;
-    display: flex;
-    flex-flow: row wrap;
-}
+
 
 #sizebox{
     font-size: 20px;
-    
+    height: 20px;
+}
+
+#reset{
+    font-size: 20px;
+    height: 30px;
+    margin-top: 10px;
+    background-color: #264653;
+    color: white;
+    border-radius: 5px;
+    border-color: #8a817c;
+}
+
+.body2{
+    display:flex;
+    flex-direction: row;
 }

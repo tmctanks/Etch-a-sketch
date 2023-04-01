@@ -3,6 +3,7 @@ var slider = document.getElementById("myRange");
 var size = 16;
 const sizebox = document.getElementById("sizebox");
 sizebox.textContent = size;
+const reset = document.getElementById("reset");
 
 game()
 makeGrid(size);
@@ -13,7 +14,10 @@ function game(){
         sizebox.textContent = size;
         makeGrid(size);
     })
-
+    reset.addEventListener("mouseup" , function(){
+        clearCont();
+        makeGrid(size);
+    })
 }
 
 function makeGrid(size){
