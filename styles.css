@@ -1,0 +1,32 @@
+#container {
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+#slideContainer{
+    background-color: tan;
+}
+
+#controls{
+    width: 200px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#sizebox{
+    font-size: 20px;
+    
+}
